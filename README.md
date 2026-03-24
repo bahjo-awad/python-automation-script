@@ -1,33 +1,32 @@
 # Python Automation Script
 
 ## Overview
-This project is a simple Python script that organises files into folders based on file type.
+This is a simple Python script I wrote to practise basic automation.
 
-The aim of the project was to practise Python scripting and apply basic automation to a real task. It uses loops, functions, file handling, and standard Python libraries to sort files into categories such as documents, images, code files, and spreadsheets.
+It takes files from a folder and sorts them into different folders based on their type (for example images, documents, or code files).
+
+---
 
 ## What it does
-- Scans a folder for files
-- Checks each file extension
-- Creates folders for different file categories
-- Moves files into the correct folder automatically
+- Looks through a folder of files  
+- Checks the file type  
+- Creates folders if needed  
+- Moves files into the right place  
+
+---
 
 ## Tools used
-- Python
-- os
-- shutil
-- Git & GitHub
+- Python  
+- os and shutil modules  
+- GitHub  
 
-## File categories
-The script currently sorts files into:
-- Images
-- Documents
-- Spreadsheets
-- Code
-- Other
+---
 
-## Project structure
-```text
-python-automation-script/
-├── script.py
-├── README.md
-└── sample_files/
+## How to run it
+1. Make sure Python is installed  
+2. Create a folder called `sample_files`  
+3. Put some files in it  
+4. Run the script:
+
+```bash
+python script.py
